@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Association of Real Property Owners — AORPO</title>
+  <meta name="description" content="Association of Real Property Owners — AORPO. AssociationOfRealPropertyOwners.com. Powered by people. Then powered by principles. Owners first." />
+  <style>
+    :root {
+      --navy: #07111f;
+      --navy-2: #0b1828;
+      --ink: #f6f1e6;
+      --muted: #b7c0cc;
+      --gold: #c9a227;
+      --gold-2: #e6c35a;
+      --line: rgba(201,162,39,.32);
+      --card: #101c2e;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, "Times New Roman", Palatino, serif; background: var(--navy); color: var(--ink); line-height: 1.55; }
+    a { color: inherit; }
+    .wrap { width: min(920px, calc(100% - 40px)); margin: 0 auto; }
+    .top { border-bottom: 1px solid var(--line); background: rgba(7,17,31,.94); }
+    .top-inner { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 16px 0; }
+    .lockup { text-align: left; }
+    .lockup .full { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; }
+    .lockup .rule { width: 48px; height: 1px; background: var(--gold); margin: 6px 0; }
+    .lockup .short { font-size: 13px; letter-spacing: .28em; color: var(--gold-2); font-weight: 700; }
+    .lockup .dot { font-size: 10px; letter-spacing: .08em; color: var(--muted); margin-top: 4px; }
+    .btn { display: inline-block; background: linear-gradient(180deg,#d4b24a,#b08d1d); color: #1a1404; text-decoration: none; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; font-size: 12px; padding: 12px 16px; }
+    .btn.ghost { background: transparent; color: var(--gold-2); border: 1px solid var(--gold); }
+    header.hero { padding: 72px 0 56px; text-align: center; }
+    .kicker { color: var(--gold); letter-spacing: .22em; text-transform: uppercase; font-size: 12px; margin-bottom: 18px; }
+    h1 { font-size: clamp(30px, 5.2vw, 52px); line-height: 1.08; font-weight: 600; }
+    .name-stack { margin: 0 auto 22px; max-width: 18em; }
+    .name-stack .bar { width: 72px; height: 2px; background: var(--gold); margin: 16px auto; }
+    .name-stack .acr { letter-spacing: .34em; font-size: clamp(18px, 2.4vw, 26px); color: var(--gold-2); }
+    .name-stack .com { margin-top: 14px; letter-spacing: .12em; font-size: 13px; color: var(--muted); }
+    .lede { margin: 22px auto 0; max-width: 38em; font-size: 20px; color: #dbe2ea; }
+    .yy { display: flex; justify-content: center; margin: 36px 0 8px; }
+    .yy svg { width: 92px; height: 92px; }
+    .pair { display: flex; justify-content: center; gap: 28px; color: var(--gold-2); letter-spacing: .16em; text-transform: uppercase; font-size: 11px; margin-top: 10px; }
+    section { padding: 56px 0; }
+    .alt { background: var(--navy-2); }
+    h2 { font-size: clamp(24px, 3.4vw, 36px); line-height: 1.15; margin-bottom: 14px; }
+    h3 { font-size: 20px; margin-bottom: 8px; }
+    p { margin: 10px 0; color: #d5dde6; }
+    .grid { display: grid; gap: 16px; margin-top: 24px; }
+    .g2 { grid-template-columns: 1fr 1fr; }
+    .card { background: var(--card); border: 1px solid rgba(255,255,255,.06); padding: 22px; }
+    ul { margin: 12px 0 0 18px; color: #d5dde6; }
+    li { margin: 7px 0; }
+    .measure { border-left: 3px solid var(--gold); padding: 16px 18px; background: #101b2c; }
+    .quote { font-size: 26px; line-height: 1.25; }
+    form { display: grid; gap: 10px; margin-top: 16px; }
+    input { width: 100%; padding: 12px 14px; background: #08121f; border: 1px solid var(--line); color: white; font: inherit; }
+    footer { padding: 40px 0 60px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); text-align: center; }
+    footer .com { display: block; margin-top: 8px; letter-spacing: .08em; }
+    @media (max-width: 800px) { .g2 { grid-template-columns: 1fr; } .top-inner { flex-direction: column; align-items: flex-start; } }
+  </style>
+</head>
+<body>
+  <div class="top">
+    <div class="wrap top-inner">
+      <div class="lockup">
+        <div class="full">Association of Real Property Owners</div>
+        <div class="rule"></div>
+        <div class="short">AORPO</div>
+        <div class="dot">AssociationOfRealPropertyOwners.com</div>
+      </div>
+      <a class="btn" href="#join">Join the founding group</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="kicker">Founding group</p>
+      <div class="name-stack">
+        <h1 class="full">Association of Real Property Owners</h1>
+        <div class="bar"></div>
+        <div class="acr">AORPO</div>
+        <div class="com">AssociationOfRealPropertyOwners.com</div>
+      </div>
+      <div class="yy" aria-hidden="true">
+        <svg viewBox="0 0 100 100" role="img">
+          <title>People and principles</title>
+          <circle cx="50" cy="50" r="48" fill="none" stroke="#c9a227" stroke-width="1.5"/>
+          <path d="M50 2 A48 48 0 0 1 50 98 A24 24 0 0 0 50 50 A24 24 0 0 1 50 2Z" fill="#e6c35a"/>
+          <path d="M50 2 A48 48 0 0 0 50 98 A24 24 0 0 1 50 50 A24 24 0 0 0 50 2Z" fill="#07111f"/>
+          <circle cx="50" cy="26" r="8" fill="#07111f"/>
+          <circle cx="50" cy="74" r="8" fill="#e6c35a"/>
+        </svg>
+      </div>
+      <div class="pair"><span>People</span><span>Principles</span></div>
+      <p class="lede">Powered by people. Then powered by principles. Not by a brokerage. Not by a portal. Not by a trade group that represents the people who get paid when you move.</p>
+    </div>
+  </header>
+
+  <section class="alt">
+    <div class="wrap">
+      <p class="quote">We are extremely strong together. We are lighter when we are divided.</p>
+      <p style="margin-top:18px">That is the founding sentence. The industry already proved the second half. Portals, national brokerages, MLSs, and the National Association of Realtors have spent the last two years suing and counter-suing each other over who controls the listing, who sees the house first, and who sets the rules. Owners were the inventory in that fight. They were not the client of record.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>What this is</h2>
+      <p>The Association of Real Property Owners is a consumer-side founding group. Full name first. Straight line. AORPO next to it. The .com under the name.</p>
+      <div class="grid g2">
+        <div class="card">
+          <h3>This is</h3>
+          <ul>
+            <li>An association for people who own, or are about to own, real property</li>
+            <li>A place to stand when the industry is fighting itself</li>
+            <li>Owner-first rules: title, agent, showing, net proceeds, intent</li>
+            <li>Hyperlocal intelligence contributed by people, then checked against public record</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>This is not</h3>
+          <ul>
+            <li>Not a brokerage and not an MLS</li>
+            <li>Not NAR, and not the NAR-funded American Property Owners Alliance</li>
+            <li>Not legal representation and not an offer of employment</li>
+            <li>Not a ranking of agents, portals, or billionaires</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <h2>The fight you can measure. The motive you cannot.</h2>
+      <p>If the name that keeps coming up is Robert Reffkin of Compass, say the name correctly. He is the most public executive in the current listing war. Compass and Zillow have been in federal court over private listing networks, Listing Access Standards, and who may withhold a home from a portal. Reffkin’s public line is seller choice and agent choice. Zillow’s public line is open inventory and consumer access. Both sides claim the owner. Neither side is this association.</p>
+      <p>Nobody here has to diagnose his temperament. He has a right to run his company. Zillow has a right to run its portal. Owners have a right not to be used as the prize.</p>
+      <div class="grid g2" style="margin-top:22px">
+        <div class="card">
+          <h3>What the record shows</h3>
+          <ul>
+            <li>Compass three-phase / private exclusive marketing versus Zillow’s one-business-day public listing rule</li>
+            <li>2025–2026 lawsuits involving Compass, Zillow, and Chicago’s MRED, plus earlier Compass suits involving NWMLS</li>
+            <li>Reffkin testimony that Zillow offered Compass on the order of $1.3–$1.6 billion in annual revenue uplift to keep listings on Zillow — a figure from his testimony, not an audited payment</li>
+            <li>NAR’s 2024 commission litigation and the 2025 Multiple Listing Options for Sellers policy change that reopened delayed marketing</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>What this association does with that</h3>
+          <ul>
+            <li>Does not pick a portal winner</li>
+            <li>Does not pick a brokerage winner</li>
+            <li>Treats listing control, title choice, compensation, and showing access as owner decisions</li>
+            <li>Puts the file in front of the owner before anyone asks them to sign</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Numbers that exist. A trillion that must be specified.</h2>
+      <div class="measure">
+        <p>U.S. homeowner equity has been reported around $35 trillion. That is stock, not a loss. Annual “junk” brokerage admin fees have been estimated near $2 billion by the Consumer Policy Center. Average title and settlement services have been estimated near $1,900 by Fannie Mae. Historical 5–6% commission on a typical sale is tens of thousands of dollars per house, and the U.S. still clears millions of sales in a normal year.</p>
+        <p>“$1 trillion lighter when we are divided” is a founding claim, not a filed audit. If we use it, we will attach a method: friction + steered vendors + hidden compensation + delayed information, counted in dollars owners did not keep. Until that method is published, the sentence stays a warning, not a statistic.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <h2>Principles, in order</h2>
+      <div class="grid g2">
+        <div class="card"><h3>1. Tell your AI first. Not their agent.</h3><p>Intent is an asset. Do not donate it to a lead portal before you understand the file.</p></div>
+        <div class="card"><h3>2. Title first. Owner picks the company.</h3><p>The listing firm does not choose title, escrow, or the examiner. The owner does.</p></div>
+        <div class="card"><h3>3. Do the real math.</h3><p>Price is one number. Payment, credits, rate, and net proceeds are the transaction.</p></div>
+        <div class="card"><h3>4. Then hire whoever you want.</h3><p>Audit the person. Compare the firm. Keep the choice. Fire them if the file says so.</p></div>
+        <div class="card"><h3>5. Hyperlocal, not national copy.</h3><p>State → county → city → ZIP → neighborhood. A badge requires an artifact: a link, a photo, a form name, or a dollar figure.</p></div>
+        <div class="card"><h3>6. People, then principles, then tools.</h3><p>Occuary can power software. It does not own the association. The association is the owners.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join">
+    <div class="wrap grid g2">
+      <div>
+        <h2>Claim founding status</h2>
+        <p>This is the other side of the table. Some people spent a career inside the industry. This group stands with the consumer when that industry loses the plot.</p>
+        <p>Founding is a name on a list and a market you will help keep honest. It is not a job. It is not a license. It is not permission to speak for every owner in America.</p>
+      </div>
+      <form class="card" action="mailto:hello@occuary.com" method="post" enctype="text/plain">
+        <h3>Founding group</h3>
+        <input name="name" placeholder="Full name" required />
+        <input name="email" type="email" placeholder="Email" required />
+        <input name="market" placeholder="State / county / city you will cover" />
+        <input name="role" placeholder="Owner, buyer, or local contributor" />
+        <button class="btn" type="submit">Request founding place</button>
+        <p style="font-size:13px;color:#b7c0cc">Emails the founding desk. No dues collected on this page. Volunteer contributions are not employment.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      Association of Real Property Owners
+      <span style="display:block;width:48px;height:1px;background:#c9a227;margin:10px auto"></span>
+      AORPO
+      <span class="com">AssociationOfRealPropertyOwners.com</span>
+      <p style="margin-top:16px">Powered by people. Then powered by principles.<br />Real Estate Intelligence is the working surface. Occuary builds tools. This association is the owners.</p>
+      <p style="margin-top:12px"><a href="/">Occuary door</a> · not a brokerage · not legal advice · not NAR’s American Property Owners Alliance</p>
+    </div>
+  </footer>
+</body>
+</html>

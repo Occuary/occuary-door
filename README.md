@@ -2,9 +2,20 @@
 
 Owner-controlled Real Estate Intelligence.
 
+## Association of Real Property Owners
+AORPO
+AssociationOfRealPropertyOwners.com
+
+Page: `/aorpo.html`
+
+Lockup rule: full name, straight line, AORPO, then the .com centered under the name.
+ARPO / RPO without the O is a typo.
+
+Powered by people. Then powered by principles.
+
 - House Vault: owner number, showing desk, agent audit
-- AI Agents Lease: $297 beta
-- Real Estate AIO
-- Association of Real Property Owners
+- AI Agents Lease
+- Real Estate Intelligence
+- Association of Real Property Owners — AORPO
 
 Repo: https://github.com/Occuary/occuary-door
